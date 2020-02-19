@@ -1,7 +1,4 @@
 {
-    "out_file_str": {
-        "name": "output_file_to_name.txt"
-    },
     "out_file_int": {
         "name": "output_map_of_ints.txt"
     },

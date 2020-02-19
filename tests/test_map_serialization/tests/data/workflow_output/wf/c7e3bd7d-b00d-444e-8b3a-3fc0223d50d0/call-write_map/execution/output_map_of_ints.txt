@@ -1,3 +1,0 @@
-/cromwell-executions/wf/c7e3bd7d-b00d-444e-8b3a-3fc0223d50d0/call-write_map/inputs/456912983/f1	1
-/cromwell-executions/wf/c7e3bd7d-b00d-444e-8b3a-3fc0223d50d0/call-write_map/inputs/456912983/f2	2
-/cromwell-executions/wf/c7e3bd7d-b00d-444e-8b3a-3fc0223d50d0/call-write_map/inputs/456912983/f3	3
