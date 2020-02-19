@@ -7,7 +7,7 @@ task make_files {
     Array[String] files = ["f1", "f2", "f3"]
   }
   runtime {
-    docker: "python:latest"
+    docker: "python:3-slim"
   }
 }
 
@@ -29,7 +29,7 @@ task write_map {
     File out2 = out_file_three 
   }
   runtime {
-    docker: "python:latest"
+    docker: "python:3-slim"
   }
 }
 
@@ -44,6 +44,6 @@ task read_map {
     Map[String, Int] out_map = read_map(stdout())
   }
   runtime {
-    docker: "python:latest"
+    docker: "python:3-slim"
   }
 }
