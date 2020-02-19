@@ -1,6 +1,6 @@
 version 1.0
 
-task make_files {
+task make_test_cases {
   command {
   }
   output {
@@ -21,7 +21,6 @@ task write_map {
   }
   command {
     cat ${write_map(map_of_ints)} > ~{out_file_two}
-    echo ~{out_file_two}
     cat ${write_map(map_of_booleans)} > ~{out_file_three}
   }
   output {

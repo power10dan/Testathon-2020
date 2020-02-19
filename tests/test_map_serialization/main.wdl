@@ -2,7 +2,7 @@ version 1.0
 import "map_task.wdl" as map_wdl
 
 workflow wf {
-  call map_wdl.make_files as mk 
+  call map_wdl.make_test_cases as mk 
   Map[File, Int] map_int = {mk.files[0]: 1, mk.files[1]: 2, mk.files[2]: 3}
   Map[File, Boolean] map_bool = {mk.files[0]: true, mk.files[1]: false, mk.files[2]: false}
   
